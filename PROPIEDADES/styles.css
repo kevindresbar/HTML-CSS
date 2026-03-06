@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(15, 227, 227);
+}
+h1{
+    text-align: start;
+}
+
+P{
+ color: rgb(150, 140, 226); /* color al texto  */
+ font-size: 19px;   /* es el tamaño de la variable p denidia en el html  */
+ font-weight: bold /*  grosor de la funte */;
+ font-family: "Betania Patmos", cursive; /* funte- tipografia   */
+font-style:italic ;/* estilo  */
+text-decoration:underline wavy rgb(0, 47, 235);
+text-transform: uppercase; /* trasforma el texto */
+text-shadow: 0px 0px 3px blue;/* sombreado */
+line-height: 50px ;/*interlineado  */
+letter-spacing: 6px;
+}
