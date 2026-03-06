@@ -1,0 +1,19 @@
+BODY {
+    margin: 0;
+    padding: 0px;
+}
+
+P {
+    background-color: brown;
+    border: 2PX solid black;
+    padding: 20px;
+    /* margin: 10px 0px 10px 0%; /* los 4 lados */
+    /* margin: 0px 30px; arriba abajo - derecha y izquierda */ */
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+border: 5px solid rgb(77, 20, 76) ;
+border-radius: 50%;
+text-align: center;
+line-height: 200px;
+}
