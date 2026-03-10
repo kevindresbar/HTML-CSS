@@ -19,3 +19,4 @@
     gap: 20px; /* espacio entre items hace igual que margin solo que margin es general */
     list-style: none;
  }
+a{text-decoration: none;}
