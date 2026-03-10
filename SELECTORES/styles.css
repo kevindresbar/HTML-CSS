@@ -2,7 +2,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1{
+.Title{
     text-transform: uppercase; /*MAYUSCULA */
     text-align: center;  /*alineacion central */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*tipografia */
@@ -35,4 +35,7 @@ li{
 }
 div{
     background-color: blue;
+}
+.Container{
+    background-color: rgb(156, 203, 232);
 }
