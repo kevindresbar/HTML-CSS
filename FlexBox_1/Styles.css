@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+ }  /* usar simpre*/
+ img{
+    width: 60px; /* tamaño imagen*/
+    
+ }
+ nav{
+    display: flex;
+    justify-content:space-around; /* alinea*/
+    align-items: center; /* centra horizonta */
+    background-color: bisque;
+
+ }
+ ul{
+    display: flex; /* hace flexibls lo que esta dentro de */
+    gap: 20px; /* espacio entre items hace igual que margin solo que margin es general */
+    list-style: none;
+ }
