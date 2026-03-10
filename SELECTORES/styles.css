@@ -9,7 +9,7 @@ h1{
     font-style: italic; /*letra medio cursiva */
 }
 
-div{
+.Receta{
     background-color: beige;
     margin: 20px;
     padding: 15px;
@@ -19,24 +19,20 @@ div{
 li{
     list-style: none;/* elimina los puntos de la lista*/
 }
-.Pasta{
+.Receta1{
     background-color: rgb(208, 208, 14);
-    margin: 20px;
-    padding: 15px;
     border: 2px solid chartreuse;/* grosor, tipo de linea, color */
-    border-radius: 15px; /* elimina esquinas*/
 }
-.Chesscake{
+.Receta2{
     background-color: rgb(223, 145, 145);
-    margin: 20px;
-    padding: 15px;
     border: 2px solid rgb(248, 0, 0);/* grosor, tipo de linea, color */
-    border-radius: 15px; /* elimina esquinas*/
+  
 }
-.Caldo{
+.Receta3{
     background-color: rgb(115, 89, 16);
-    margin: 20px;
-    padding: 15px;
     border: 2px solid rgb(252, 252, 252);/* grosor, tipo de linea, color */
-    border-radius: 15px; /* elimina esquinas*/
+    
+}
+div{
+    background-color: blue;
 }
