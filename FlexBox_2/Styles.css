@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.Container{
+    width: 40rem;
+    height: 40rem;
+    margin: 0px auto; /**/
+    background-color: blue;
+    display: flex;
+    gap: 10px;
+
+    /*FLEX */
+     display: flex;
+
+    flex-direction: row;
+    /*Centra eje principal*/
+    justify-content: start;
+
+    align-items: start; /* justifica el contenido interno de la caja azul */
+    flex-wrap: wrap;
+}  
+
+.box{
+    width: 70px;
+    height: 70px;
+background-color: blanchedalmond;
+}
