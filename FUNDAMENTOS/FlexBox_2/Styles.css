@@ -14,13 +14,12 @@
 
     /*FLEX */
      display: flex;
-
-    flex-direction: row;
     /*Centra eje principal*/
     justify-content: start;
-
     align-items: start; /* justifica el contenido interno de la caja azul */
+    align-content: start; 
     flex-wrap: wrap;
+    /*Esto centra el eje cruzado*/
 }  
 
 .box{

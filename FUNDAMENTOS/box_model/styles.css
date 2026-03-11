@@ -1,3 +1,4 @@
+
 BODY {
     margin: 0;
     padding: 0px;
@@ -8,7 +9,7 @@ P {
     border: 2PX solid black;
     padding: 20px;
     /* margin: 10px 0px 10px 0%; /* los 4 lados */
-    /* margin: 0px 30px; arriba abajo - derecha y izquierda */ */
+    /* margin: 0px 30px; arriba abajo - derecha y izquierda */ 
     width: 200px;
     height: 200px;
     margin-left: 20px;
