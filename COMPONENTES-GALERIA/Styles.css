@@ -4,12 +4,20 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(170, 80, 80);
+    background-color: rgb(17, 29, 69);
+}
+h1{ text-transform: uppercase; /*MAYUSCULA */
+    text-align: center;  /*alineacion central */
+    font-family:monospace /*tipografia */
+   
+    
 }
 .Container{
     display: flex;
     gap: 10px;
     flex-wrap: wrap;/*hac que que la imagen se scomode al contexto de la caja */
+    margin: 2rem 1rem;
+    align-items: center;
 
 }
 img{
@@ -17,7 +25,15 @@ img{
     height: 350px; /*ajusta tamaño imagen*/
   object-fit: cover;/*Permite uqe la imagen se ajsute y no se apeyisque*/
   border: 2px solid  rgb(193, 172, 172); /*Borde, tipo de borde y color*/
+  filter:invert(5);
+  transition: .4s;
+
+
+  
 }
 img:hover{
     box-shadow: 0px 0px 30px rgb(193, 172, 172) ;
+    transform: scale(1.08);
+    filter: brightness();
+    transform: rotate(360deg);
 }
