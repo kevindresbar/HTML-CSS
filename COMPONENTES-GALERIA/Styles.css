@@ -8,9 +8,10 @@ body{
 }
 h1{ text-transform: uppercase; /*MAYUSCULA */
     text-align: center;  /*alineacion central */
-    font-family:monospace /*tipografia */
-   
-    
+    font-family:monospace /*tipografia */;
+    color: whitesmoke;
+    text-shadow: 0px 0px 52px rgb(221, 210, 210);
+    font-size: 60px;
 }
 .Container{
     display: flex;
