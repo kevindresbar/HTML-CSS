@@ -1,0 +1,15 @@
+*{/* Reseteo básico para quitar espacios por defecto del navegador */
+    margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+html{
+    font-size: 62.5%; /* Facilita el uso de rem (1rem = 10px) */
+}
+
+header{
+background-color: #B0B0B0;
+}
+.Logo{
+    width: 3rem;
+}
+@medi

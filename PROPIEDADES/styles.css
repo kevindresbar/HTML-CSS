@@ -9,7 +9,7 @@ P{
  color: rgb(150, 140, 226); /* color al texto  */
  font-size: 19px;   /* es el tamaño de la variable p denidia en el html  */
  font-weight: bold /*  grosor de la funte */;
- font-family: "Betania Patmos", cursive; /* funte- tipografia   */
+ font-family: "Betania Patmos"; /* funte- tipografia   */
 font-style:italic ;/* estilo  */
 text-decoration:underline wavy rgb(0, 47, 235);
 text-transform: uppercase; /* trasforma el texto */

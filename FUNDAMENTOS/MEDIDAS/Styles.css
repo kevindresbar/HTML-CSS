@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%; /*pasamos lo 16px a 10px para manejar decilaes*/
+}
+.Pixeles{
+    font-size: 10px;
+
+}
+.Rem{
+
+    font-size: 5.2rem;
+}
