@@ -1,41 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Styles.csss">
+    <link rel="stylesheet" href="Styles.css">
 </head>
+
 <body>
     <header>
+        <div>
+            <img src="IMG/Logo.svg" alt="NETFLIX">
 
+            <button command="Show-Modal" commandfor="Sesion">Iniciar Sesión</button>
+
+        </div>
     </header>
     <main>
         <div>
-            <img src="IMG/Logo.svg" alt="NETFLIX">
+            <img class="Net" src="https://www.teknofilo.com/wp-content/uploads/2021/06/Netflix-1280x720.jpg" alt="Net">
         </div>
-        <h1>Películas y series ilimitadas y mucho más</h1>
-        <h2>A partir de $ 18.900. Cancela cuando quieras.</h2>
-        <p>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</p>
+        <div>
+            <dialog id="Sesion">
+                <h1>Ingresa tu info para iniciar sesión</h1>
+                <h2>O bien, comienza con una cuenta nueva.</h2>
 
+                <form action="">
+                    <label for="Mail"></label>
+                    <input type="email" placeholder="Email o Numero de Celular" id="Mail">
+                    <button> Continuar ></button>
+                </form>
+            </dialog>
 
-
-        <button command= "Show-Modal" commandfor="Modal">CLICK</button>
-
-        <dialog id="Modal">
-            <h1>Ventana Modal</h1>
-            
-
-            <button command= "Close" commandfor="Modal">X</button>
-        </dialog>
-        <script>
-            let Modal 
-        </script>
+            <script>
+            </script>
+            <h1>Películas y series ilimitadas y mucho más</h1>
+            <h2>A partir de $ 18.900. Cancela cuando quieras.</h2>
+            <p>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</p>
+            <form action="">
+                <label for="Mail"></label>
+                <input type="email" placeholder="XXXXXXX@ejemplo com" id="Mail">
+                <button> Comenzar ></button>
+            </form>
+        </div>
 
     </main>
     <footer>
 
     </footer>
-    
+
 </body>
+
 </html>
