@@ -5,16 +5,36 @@ box-sizing: border-box;}
 html{
     font-size: 62.5%; /* Facilita el uso de rem (1rem = 10px) */
 }
-body{
-
-}
 .Net{
     position: absolute;
     top: 0;
     left: 0;
+    /* pocicion quede fija y elementos inicales  */
     width: 100%;
-    height: 100%;
-    /* opacity: 0.7; */
-    z-index: -1;
-    filter: brightness(50%);
+    height: 100%;/* tamaño al 100x100 */
+    z-index: -1;/* hace que quede detras de todo el texto */
+    filter: brightness(50%); /* filtro reduce el brillo al porcentaje */
 } 
+header{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.623);
+    justify-content:space-between; /* justifica el contenido para que se distrivuya en en el misma caja */
+}
+.Logo{
+    width: 15rem;
+    display: inline-block;  /* lo bloquea par ue no se mueva de ahi */
+    margin: 3rem ;
+}
+button{
+    margin: 3rem ;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(229, 9, 20);
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 2rem;
+}
+main{
+    color: white;
+}
