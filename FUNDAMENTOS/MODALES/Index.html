@@ -12,34 +12,37 @@
     <header>
         <div class="Cabeza">
             <img class="Logo" src="IMG/Logo.svg" alt="NETFLIX">
-            
-            <form class="Idioma" action="">
-                    <label for="Idi"></label>
-                    <select name="" id="Idi">
+            <div class="Cabeza2">
+            <form action="">
+                    <label  for="Idi"></label>
+                    <select class="Idioma"  name="" id="Idi">
                         <option lang="Español" value="">Español</option>
-                        <option lang="Ingles" value="">English</option>
+                        <option lang="English" value="">English</option>
                     </select>
-                     <button command="Show-Modal" commandfor="Sesion">Iniciar Sesión</button>
             </form>
+                     <button command="show-Modal" commandfor="Sesion">Iniciar Sesión</button>
+                     </div>
+
         </div>
     </header>
-
-
-    
     <main>
+
         <div>
             <img class="Net" src="https://www.teknofilo.com/wp-content/uploads/2021/06/Netflix-1280x720.jpg" alt="Net">
         </div>
         <div class="Inicio">
-            <dialog id="Sesion">
-                <h1>Ingresa tu info para iniciar sesión</h1>
-                <h2>O bien, comienza con una cuenta nueva.</h2>
-
+           
+                <dialog class="moda" id="Sesion">
+                    <img class="Logo" src="IMG/Logo.svg" alt="NETFLIX">
+                    <nav class="M">
+                <h1 class="h11">Ingresa tu info para iniciar sesión</h1>
+                <h2 class="h22">O bien, comienza con una cuenta nueva.</h2>
                 <form class="Mails" action="">
                     <label for="Mail"></label>
-                    <input type="email" placeholder="Email o Numero de Celular" id="Mail">
-                    <button> Continuar ></button>
+                    <input class="input2" type="email" placeholder="Email o Numero de Celular" id="Mail">
+                    <button class="button2"> Continuar ></button>
                 </form>
+                </nav>
             </dialog>
 
             <script>
@@ -49,7 +52,7 @@
             <h3>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</h3>
             <form class="Mails" action="">
                 <label for="Mail2"></label>
-                <input type="email" placeholder="Email o Numero de Celular" id="Mail2">
+                <input class="input1" type="email" placeholder="Email" id="Mail2">
                 <button> Comenzar ></button>
             </form>
         </div>
