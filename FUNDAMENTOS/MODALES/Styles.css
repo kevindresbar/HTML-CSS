@@ -7,7 +7,7 @@ html{
     font-size: 62.5%; /* Facilita el uso de rem (1rem = 10px) */
 }
 .Net{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     /* pocicion quede fija y elementos inicales  */
@@ -25,8 +25,7 @@ html{
     display: flex;
     justify-content:space-between; /* justifica el contenido para que se distrivuya en en el misma caja */
     align-items: center;
-    padding-left: 35rem;
-    padding-right: 35rem; 
+    padding: 2rem 10%; 
     background-color: rgba(0, 0, 0, 0.24);
 }
 .Cabeza2{
@@ -49,7 +48,7 @@ button{
     color: white;
     width: 50rem ;
     padding:auto;
-    margin: auto;
+    margin: 15rem auto;
     margin-top: 10rem;
     align-items: center;   
 }
@@ -147,4 +146,24 @@ h2{
 h3{
     font-size: 1.8rem;
     font-weight: 400px;
+}
+@media (max-width: 600px) {
+    .Logo {
+        width: 7rem;
+    }
+    /* .moda {
+        padding: 1.5rem;
+    } */
+    .Inicio, .M {
+        width: 85%; 
+        margin-top: 5rem;
+    }
+    
+    .h11 {
+        font-size: 2.6rem; 
+    }
+}
+@media (max-width: 460px) {
+    .Idioma {
+        display: none; }
 }
